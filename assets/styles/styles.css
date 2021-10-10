@@ -2,6 +2,10 @@ label {
     font-size: 15px;
 }
 
+code {
+    white-space: break-spaces !important;
+}
+
 .hide {
     position: absolute;
     width: 1px;
@@ -25,4 +29,10 @@ label {
     height: 20vw;
     overflow: visible;
     cursor: pointer;
+}
+
+.animete-motion-example {
+    background-color: #94c3d3;
+    width: calc(100% + 200px);
+    margin-left: -100px;
 }
